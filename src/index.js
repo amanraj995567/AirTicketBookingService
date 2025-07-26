@@ -20,7 +20,7 @@ const setupAndStartServer = () => {
              db.sequelize.sync({alter:true});
         }
 
-        console.log(FLIGHT_SERVICE_PATH);
+        //console.log(FLIGHT_SERVICE_PATH);
     });
 }
  
